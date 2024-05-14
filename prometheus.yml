@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'website_status'
+    static_configs:
+      - targets: ['website_status_exporter:8000']

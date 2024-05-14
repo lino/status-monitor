@@ -1,0 +1,18 @@
+[project]
+name = "monitor"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Lino Helms", email = "lino@lino.io"},
+]
+dependencies = [
+    "prometheus-client>=0.20.0",
+    "requests>=2.31.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
